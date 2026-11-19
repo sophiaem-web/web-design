@@ -1,0 +1,5 @@
+node_modules/
+.workbuddy/
+
+# assignment 2 是独立 git 仓库，单独推送到 Gitee，不并入根仓库
+assignment 2/
