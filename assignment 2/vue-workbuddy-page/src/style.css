@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font: 16px/1.5 system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: #111827;
+  background: #f9fafb;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background: #f9fafb;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 0.5rem;
+}
+
+code {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.9em;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  color: #7c3aed;
+}
+
+#app {
+  min-height: 100vh;
+}
